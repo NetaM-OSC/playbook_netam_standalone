@@ -1,0 +1,13 @@
+---
+# Global NetAM Value
+netam_version: '2.0.2'
+
+# Database version
+postgres_version: '12'
+
+# NetAM
+## Database configuration
+netam_db_name: 'netam'
+netam_db_conn_limit: '1024'
+netam_db_user: 'netam'
+netam_db_pass: 'mysuperpass'
