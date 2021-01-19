@@ -1,0 +1,12 @@
+[submodule "roles/netam_postgresql"]
+	path = roles/netam_postgresql
+	url = https://github.com/NetAM-OSC/role_netam_postgresql.git
+[submodule "roles/netam_redis"]
+	path = roles/netam_redis
+	url = https://github.com/NetAM-OSC/role_netam_redis.git
+[submodule "roles/netam_core"]
+	path = roles/netam_core
+	url = https://github.com/NetAM-OSC/role_netam_core.git
+[submodule "roles/netam_worker"]
+	path = roles/netam_worker
+	url = https://github.com/NetAM-OSC/role_netam_worker.git
