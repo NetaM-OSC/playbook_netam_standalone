@@ -7,6 +7,13 @@
 
 ## Variables:
 
+### Playbook:
+* `netam_version`: `'2.1.0'` - NetAM version to install (define in group_vars/host_vars)
+* `postgres_version`: `'12'` - Postgres database engine version (define in group_vars/host_vars)
+* `netam_db_name`: `'netam'` - NetAM Database name (define in group_vars/host_vars)
+* `netam_db_conn_limit`: `'1024'` - NetAM database connection limit (define in group_vars/host_vars)
+* `netam_db_user`: `'netam'` - NetAM database user (define in group_vars/host_vars)
+* `netam_db_pass`: `'mysuperpass'` - NetAM database password (define in group_vars/host_vars)
 ### Netam_postgresql:
 * `d_netam_db_backup_base_dir`: `'/usr/local/exploit'` - Netam database backup path
 ### Netam_redis:
